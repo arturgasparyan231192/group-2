@@ -1,0 +1,26 @@
+commit dc22201c85dec147407c57d53a6a134758dbcf55
+Author: Nona Musaelyan <musaielian.nona@mail.ru>
+Date:   Tue Mar 6 20:07:13 2018 +0400
+
+    my first commit
+
+ lesson1/artur/keep | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 8731c35ddadb5bf201dbdf695cd42587c6ad4ac4
+Author: Mkhitar Hayrapetyan <mkhitar.hayrapetyan@webtrends.com>
+Date:   Tue Mar 6 18:48:21 2018 +0400
+
+    Added lesson1 folder.
+
+ lesson1/.gitkeep | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit e09618ea5189585c4fcbf771bee509f0d5c1427b
+Author: Mkhitar Hayrapetyan <mkhitar.hayrapetyan@webtrends.com>
+Date:   Tue Mar 6 18:46:38 2018 +0400
+
+    first commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
