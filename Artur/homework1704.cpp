@@ -18,22 +18,19 @@ class Stack {
 	        arr[top] = k;
                 top++;
             }
-        }
+    }
+	~Stack(){
+		delete arr[]
+	} 
 	int pop() {
             if (top == 0) {
                 std::cout << "Stack is empty!\n" <<  std::endl;
 	    } else {
-	        int m = arr[top];
-                arr[top] = 0;
-	        top--;
-                return m;
+	        return arr[top--]
 	    }
  	}
-	bool isEmpty() {
-	    if (top == 0) {
-	        return false; 
-            } else {
-		return true;
+	bool isEmpty() { 
+		return(top==0) ;
 	    }
 	}
 	int size() {
@@ -44,7 +41,14 @@ class Stack {
 
 
 int main() {
-
+	int n;
+    cin >> n;
+    Stack stack(n);
+    for (int i=0; i < n+1; i++) {
+        stack.push(i);
+    }
+    Stack stack1(n);
+    stack1.pop();
 
     return 0;
 }
